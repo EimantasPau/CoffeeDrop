@@ -1,0 +1,56 @@
+.bg-image {
+  background: url('../../assets/shutterstock_326070713@2x.jpg') no-repeat fixed center;
+  overflow: hidden;
+}
+.padding {
+  @media screen and (max-width: $break-small) {
+    height: 250px;
+  }
+  @media screen and (min-width: $break-medium) {
+    height: 100px;
+  }
+  @media screen and (min-width: $break-large) {
+    height: 150px;
+  }
+}
+.header {
+  padding-top: 100px;
+  position: relative;
+  h1 {
+    font-weight: bold;
+    color:$white;
+    font-size: 2rem;
+    @media screen and (max-width: $break-small) {
+      font-size: 1.5rem;
+    }
+  }
+  p {
+    color:$white;
+    font-size: 1.15rem;
+    opacity: 0.75;
+    line-height: 1.2;
+
+  }
+  .floating-app {
+    position: absolute;
+    bottom: 0;
+    @media screen and (max-width: $break-medium) {
+      right: -145px;
+      width: 95%;
+    }
+    @media screen and (max-width: $break-small) {
+      right: -75px;
+      width: 167%;
+      bottom: -83px;
+    }
+
+    @media screen and (min-width: $break-large) {
+      float: right;
+    }
+
+    right: 0;
+    width: 55%;
+  }
+}
+
+

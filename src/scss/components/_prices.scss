@@ -1,0 +1,29 @@
+.prices {
+  position: relative;
+  background-color: $brown;
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $white;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: $green;
+  }
+  .price-list {
+    li {
+      background-color: #4e4e4e;
+      color: $white;
+      &:nth-child(2n){
+        background-color: #626262;
+        border-radius: 4px;
+    }
+    }
+  }
+  .coffee-beans {
+    position: absolute;
+    bottom: -25px;
+    z-index: 1;
+  }
+}

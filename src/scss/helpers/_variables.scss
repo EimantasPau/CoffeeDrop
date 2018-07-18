@@ -1,0 +1,23 @@
+// Color
+$brown: #373737;
+$green: #28E7A8;
+$white: #FFFFFF;
+
+//breakpoints
+$break-small: 320px;
+$break-medium: 768px;
+$break-large: 1200px;
+// fonts
+$font-path-raleway: "../../../fonts/Raleway/" !default;
+
+@font-face {
+  font-family: "ralewayregular";
+  src: url("../../../fonts/Raleway/raleway-regular-webfont.eot");
+  src: url("../../../fonts/Raleway/raleway-regular-webfont.eot?#iefix") format("embedded-opentype"),
+  url("../../../fonts/Raleway/raleway-regular-webfont.woff2") format("woff2"),
+  url("../../../fonts/Raleway/raleway-regular-webfont.woff") format("woff"),
+  url("../../../fonts/Raleway/raleway-regular-webfont.ttf") format("truetype"),
+  url("../../../fonts/Raleway/raleway-regular-webfont.svg#ralewayregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
